@@ -1,6 +1,7 @@
 #import "CellProbeService.h"
 #import "CoreTelephonyClientMinimal.h"
-#import <CoreTelephony/CoreTelephony.h>
+#import <CoreTelephony/CTTelephonyNetworkInfo.h>
+#import <CoreTelephony/CTCarrier.h>
 #import <objc/runtime.h>
 #import <objc/message.h>
 
