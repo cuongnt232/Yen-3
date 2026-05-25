@@ -105,7 +105,7 @@ jobs:
             COMPILER_INDEX_STORE_ENABLE=NO \
             build 2>&1 | tee build.log
 
-            - name: Package IPA
+      - name: Package IPA
         run: |
           set -euo pipefail
           APP_PATH="build/DerivedData/Build/Products/Release-iphoneos/CellNetMonitor.app"
